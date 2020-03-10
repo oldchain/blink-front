@@ -1,0 +1,628 @@
+<html lang="en">
+	<head>
+		<title>Blink</title>
+        <!-- responsive view -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+		<!-- fontAwesome -->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+		<!-- css -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Myraid-P" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+		<link href="css/scroller.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/unslider.css" rel="stylesheet">
+		<link href="css/unslider-dots.css" rel="stylesheet">
+			  <!-- scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/jquery.countTo.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvi-eMxMbg7_WS0xPoQQb_XjZsaqengZg&callback=initMap"> </script>
+		<script src="js/jssor.slider-22.2.6.mini.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/unslider.js"></script>
+		<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	</head>
+	<body>
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+			<div class="info"></div>
+        <div class="container">
+            <!-- Brand and toggle get grouped -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top"><img src="img/icons/fav.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right  fadeIn animated">
+                    <li class="active">
+                        <a class="page-scroll" href="index.html">Home</a>
+                    </li>
+					 <li class="divider-vertical"></li>
+					<li>
+                        <a class="page-scroll" href="about.html">about us</a>
+                    </li>
+					 <li class="divider-vertical"></li>
+                    <li>
+                        <a class="page-scroll" href="port.html">work</a>
+                    </li>
+					 <li class="divider-vertical"></li>
+                    <li>
+                        <a class="page-scroll" href="team.html">team</a>
+                    </li>
+					 <li class="divider-vertical"></li>
+                    <li>
+                        <a class="page-scroll" href="contact.html">contact</a>
+                    </li>
+					<li>
+						<div class="input-group">
+							<div class="input-group  fadeInRight animated" data-wow-delay="0.5s">	
+								<input type="text" class="form-control " placeholder="Search for.." aria-describedby="sizing-addon1">
+								<span class="input-group-addon nav-search" id="sizing-addon1"><i class="fa fa-search"></i></span>
+							</div>
+						</div>
+					</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+		<header id="home">
+            <div class="img-viewer">
+			  <br>
+			  <div id="myCarousel" class="carousel slide wow fadeInDown animated" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators wow shake animated" data-wow-delay="1s">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				  <li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+				  <div class="item active">
+					<img class="img-responsive" src="img/index/1.jpg" alt="Chania" width="460" height="345">
+					  <div class="carousel-caption wow shake animated " data-wow-delay="1s">
+						  <h3>Chania</h3>
+						  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+					  </div>
+				  </div>
+
+				  <div class="item">
+					<img class="img-responsive" src="img/index/2.jpg" alt="Chania" width="460" height="345">
+					  <div class="carousel-caption wow shake animated" data-wow-delay="1s">
+						  <h3>Chania</h3>
+						  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+					  </div>
+				  </div>
+
+				  <div class="item">
+					<img class="img-responsive" src="img/index/3.jpg" alt="Flower" width="460" height="345">
+					  <div class="carousel-caption wow shake animated" data-wow-delay="1s">
+						  <h3>Chania</h3>
+						  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+					  </div>
+				  </div>
+
+				  <div class="item">
+					<img class="img-responsive" src="img/index/4.jpg" alt="Flower" width="460" height="345">
+					  <div class="carousel-caption">
+						  <h3>Chania</h3>
+						  <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+					  </div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+        </header>
+		<!-- HEADER END -->
+		<!-- SECTION STARTING -->
+		<section class="about-us">
+			<div class="container">
+				<h2 class="wow fadeInRight animated">What We Do</h2>
+				<h1 class="wow fadeInLeft animated">ABOUT US</h1>
+
+				<hr class="light">
+				<p class="wow fadeIn animated" data-wow-delay="0.5s">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.
+				</p>
+			</div>
+			<div class="container ">
+				<div class="people">
+					<img class="img-responsive" src="img/index/7.jpg">
+				</div>
+			</div>
+		</section>
+		<section class="blue-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 text-center wow bounce animated">
+						<div class="row">
+							<img src="img/icons/Artboard%203_op.png">
+						</div>
+						<h2 class="timer" id="earth" data-to="206" data-speed="8000"></h2>
+						<p>Successful Projects</p>
+					</div>
+					<div class="col-md-offset- col-md-3 text-center wow bounce animated">
+						<div class="row">
+							<img src="img/icons/Artboard%204_op.png">
+						</div>
+						<h2 class="timer" id="earth" data-to="330" data-speed="8000"></h2>
+						<p>Happy Clients</p>
+					</div>
+					<div class="col-md-offset- col-md-3 text-center wow bounce animated">
+						<div class="row">
+							<img src="img/icons/Artboard%201_op.png">
+						</div>
+						<h2 class="timer" id="earth" data-to="340" data-speed="8000"></h2>
+						<p>Year Experience</p>
+					</div>
+					<div class="col-md-offset- col-md-3 text-center wow bounce animated">
+						<div class="row">
+							<img src="img/icons/Artboard%202_op.png">
+						</div>
+						<h2 class="timer" id="earth" data-to="580" data-speed="8000"></h2>
+						<p>Member</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="wow fadeInUp animated">
+    <!-- #endregion Jssor Slider End -->
+			<div class="container">
+				<div class="my-slider">
+					<ul>
+						<li><img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg">
+						</li>
+						<li><img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg"></li>
+
+						<li><img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg">
+							<img src="img/brands/page01_img08.jpg"></li>	
+					</ul>
+				</div>
+			</div>
+			
+		</section>
+		<section class="services">
+			<div class="container">
+				<h2 class="wow fadeInRight animated">We work with</h2>
+				<h1 class="wow fadeInLeft animated">AMAZING SERVICES</h1>
+				<hr class="light">
+				<div class="container products">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+                                    <a target="_blank" href="port.html"><img src="img/icons/sArtboard%201_service.png"></a>
+								</div>
+								<div class="col-md-5 text-center">
+									<h5>BRAND ACTIVATION</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+									<a target="_blank" href="port.html"><img src="img/icons/sArtboard%204_service.png"></a>
+								</div>
+								<div class="col-md-5 text-center">
+									<h5>PRODUCT SAMPLING</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+									<a href="port.html"><img src="img/icons/sArtboard%208_service.png"></a>
+								</div>
+								<div class="col-md-3 text-center">
+									<h5>ROADSHOW</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+                                    <a target="_blank" href="port.html"><img src="img/icons/sArtboard%203_service.png"></a>
+								</div>
+								<div class="col-md-5 text-center">
+									<h5>CORPORATE EVENTS</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+                                    <a target="_blank" href="port.html"><img src="img/icons/sArtboard%202_service.png"></a>
+								</div>
+								<div class="col-md-4 text-center">
+									<h5>MEGA EVENTS</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+                                    <a target="_blank" href="port.html"><img src="img/icons/sArtboard%206_service.png"></a>
+								</div>
+								<div class="col-md-3 text-center">
+									<h5>FESTIVALS</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+                                    <a target="_blank" href="port.html"><img src="img/icons/sArtboard%207_service.png"></a>
+								</div>
+								<div class="col-md-3 text-center">
+									<h5>KIDS SHOW</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-2 text-center wow swing animated" data-wow-delay="0.5s">
+                                    <a target="_blank" href="port.html"><img src="img/icons/sArtboard%205_service.png"></a>
+								</div>
+								<div class="col-md-6 text-center">
+									<h5>COMMERCIAL PROJECTS</h5>
+								</div>
+							</div>
+							<div class="row">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's,</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="work">
+			<div class="container">
+				<h2 class="wow fadeInLeft animated">Our stories</h2>
+				<h1 class="wow fadeInRight animated">FEATURED WORK</h1>
+				<hr class="light">
+				<div class="filtr-container">
+				<div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 5" data-sort="Luminous night">
+                    <a data-toggle="modal" data-target="#myModal2" class="portfolio-box">
+						<img src="img/index/2.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									<img src="img/icons/Artboard%204_op.png">
+								</div>
+								<div class="project-name">
+									Project Name
+								</div>
+							</div>
+						</div>
+					</a>	
+                    <span class="item-desc">Luminous night</span>
+                </div>
+                
+                <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2, 5" data-sort="Luminous night">
+                    <a data-toggle="modal" data-target="#myModal2" class="portfolio-box">
+						<img src="img/index/2.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									<img src="img/icons/Artboard%204_op.png">
+								</div>
+								<div class="project-name">
+									Project Name
+								</div>
+							</div>
+						</div>
+					</a>	
+                    <span class="item-desc">Luminous night</span>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 4" data-sort="City wonders">
+                   <a data-toggle="modal" data-target="#myModal3" class="portfolio-box">
+						<img src="img/index/2.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									<img src="img/icons/Artboard%204_op.png">
+								</div>
+								<div class="project-name">
+									Project Name
+								</div>
+							</div>
+						</div>
+					</a>	
+                    <span class="item-desc">city wonders</span>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3" data-sort="In production">
+                   <a data-toggle="modal" data-target="#myModal4" class="portfolio-box">
+						<img src="img/index/2.jpg" class="img-responsive" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									<img src="img/icons/Artboard%204_op.png">
+								</div>
+								<div class="project-name">
+									Project Name
+								</div>
+							</div>
+						</div>
+					</a>	
+                    <span class="item-desc">in production</span>
+                </div>
+                        <div class="info-images">
+							<div class="modal fade" id="myModal1" role="dialog">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<div class="modal-body">
+											<div class="header">
+												<h1>WHAT PEOPLE SAY</h1>
+												<hr class="light">
+											</div>
+											<div class="row modal-logo">
+												<div class="col-md-4">
+													<img class="img-responsive" src="img/icons/cocacola.png">
+												</div>
+												<div class="col-md-7 col-md-offset-1">
+													<div class="verticalLine">
+														<h1>Project Name</h1>
+														<h2>March 2016</h2>
+													</div>
+												</div>
+											</div>
+											<div class="row modal-description">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="row modal-photos">
+												<img class="img-responsive" src="img/index/5.jpg">
+												<img class="img-responsive" src="img/index/6.jpg">
+												<img class="img-responsive" src="img/index/9.jpg">
+												<img class="img-responsive" src="img/index/8.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal fade" id="myModal2" role="dialog">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<div class="modal-body">
+											<div class="header">
+												<h1>WHAT PEOPLE SAY</h1>
+												<hr class="light">
+											</div>
+											<div class="row modal-logo">
+												<div class="col-md-4">
+													<img class="img-responsive" src="img/icons/cocacola.png">
+												</div>
+												<div class="col-md-7 col-md-offset-1">
+													<div class="verticalLine">
+														<h1>Project Name</h1>
+														<h2>March 2016</h2>
+													</div>
+												</div>
+											</div>
+											<div class="row modal-description">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="row modal-photos">
+												<img class="img-responsive" src="img/index/5.jpg">
+												<img class="img-responsive" src="img/index/6.jpg">
+												<img class="img-responsive" src="img/index/9.jpg">
+												<img class="img-responsive" src="img/index/8.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal fade" id="myModal3" role="dialog">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<div class="modal-body">
+											<div class="header">
+												<h1>WHAT PEOPLE SAY</h1>
+												<hr class="light">
+											</div>
+											<div class="row modal-logo">
+												<div class="col-md-4">
+													<img class="img-responsive" src="img/icons/cocacola.png">
+												</div>
+												<div class="col-md-7 col-md-offset-1">
+													<div class="verticalLine">
+														<h1>Project Name</h1>
+														<h2>March 2016</h2>
+													</div>
+												</div>
+											</div>
+											<div class="row modal-description">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="row modal-photos">
+												<img class="img-responsive" src="img/index/5.jpg">
+												<img class="img-responsive" src="img/index/6.jpg">
+												<img class="img-responsive" src="img/index/9.jpg">
+												<img class="img-responsive" src="img/index/8.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="modal fade" id="myModal4" role="dialog">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<div class="modal-body">
+											<div class="header">
+												<h1>WHAT PEOPLE SAY</h1>
+												<hr class="light">
+											</div>
+											<div class="row modal-logo">
+												<div class="col-md-4">
+													<img class="img-responsive" src="img/icons/cocacola.png">
+												</div>
+												<div class="col-md-7 col-md-offset-1">
+													<div class="verticalLine">
+														<h1>Project Name</h1>
+														<h2>March 2016</h2>
+													</div>
+												</div>
+											</div>
+											<div class="row modal-description">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+											</div>
+											<div class="row modal-photos">
+												<img class="img-responsive" src="img/index/5.jpg">
+												<img class="img-responsive" src="img/index/6.jpg">
+												<img class="img-responsive" src="img/index/9.jpg">
+												<img class="img-responsive" src="img/index/8.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                <a class="pull-right see-more btn btn-lg btn-dark" href="port.html">See More..</a>
+			</div>
+		</section>
+		<footer class="black-section">
+			<div class="container text-left">
+				<div class="row">
+					<div class="col-md-8">
+						<p>Copyrights © 2017 Blink All Rights Reserved. Designed by Root 	Cave</p>
+					</div>
+					<div class="col-md-4 text-right">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-linkedin"></i>
+						<i class="fa fa-youtube"></i>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+			 var hidWidth;
+            var scrollBarWidths = 40;
+
+            var widthOfList = function(){
+              var itemsWidth = 0;
+              $('.list li').each(function(){
+                var itemWidth = $(this).outerWidth();
+                itemsWidth+=itemWidth;
+              });
+              return itemsWidth;
+            };
+
+            var widthOfHidden = function(){
+              return (($('.wrapper').outerWidth())-widthOfList()-getLeftPosi())-scrollBarWidths;
+            };
+
+            var getLeftPosi = function(){
+              return $('.list').position().left;
+            };
+
+            var reAdjust = function(){
+              if (($('.wrapper').outerWidth()) < widthOfList()) {
+                $('.scroller-right').show();
+              }
+              else {
+                $('.scroller-right').hide();
+              }
+
+              if (getLeftPosi()<0) {
+                $('.scroller-left').show();
+              }
+              else {
+                $('.item').animate({left:"-="+getLeftPosi()+"px"},'slow');
+                $('.scroller-left').hide();
+              }
+            }
+
+            reAdjust();
+
+            $(window).on('resize',function(e){  
+                reAdjust();
+            });
+
+            $('.scroller-right').click(function() {
+
+              $('.scroller-left').fadeIn('slow');
+
+              $('.list').animate({left:"+="+widthOfHidden()+"px"},'slow',function(){
+
+              });
+            });
+
+            $('.scroller-left').click(function() {
+
+                $('.scroller-right').fadeIn('slow');
+
+                $('.list').animate({left:"-="+getLeftPosi()+"px"},'slow',function(){
+
+                });
+            });    
+		</script>
+		<script>
+			jQuery(document).ready(function($) {
+				$('.my-slider').unslider({
+					arrows: {
+								//  Unslider default behaviour
+								prev: '<a class="unslider-arrow prev" style="margin-left:2%; margin-top:-3%; font-size:50px;"><i class="fa fa-arrow-left" aria-hidden="true"></i>',
+								next: '<a class="unslider-arrow next" style="margin-right:2%; margin-top:-3%; font-size:50px;"><i class="fa fa-arrow-right" aria-hidden="true"></i>',
+							}
+				});
+			});
+		</script>
+	</body>
+</html>	
